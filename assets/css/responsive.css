@@ -341,10 +341,16 @@
 
 
 
+    section.whatnew-area.whatnew2 .blk {
+        margin-top: 0px;
+    }
 
-
-
-
+    form.search_form {
+        width: 100%;
+    } 
+    .blk.blk-big .blk-img > img {
+        height: 240px; 
+    }
 
 
 

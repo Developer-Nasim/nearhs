@@ -1198,11 +1198,207 @@ section.about-more-area .about-item:nth-child(4),section.about-more-area .about-
 
 
 
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
 
 
 
 
 
+
+
+
+
+
+
+.blk.blk-big .blk-img > img {
+  height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+section.whatnew-area.whatnew2 .blk {
+  margin-top: 40px;
+}
+
+section.whatnew-area.whatnew2 a.theme-btn {
+  margin: auto;
+  margin-top: 50px;
+  font-size: 31px;
+}
+.fileter-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+}
+
+form.search_form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 100px;
+  padding: 10px;
+  position: relative;
+  gap: 5px;
+  padding-right: 20px;
+  max-width: 400px;
+}
+
+form.search_form input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+ul.tagLists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul.tagLists a {
+  padding: 1px 15px;
+  border-radius: 30px;
+  border: 1px solid var(--textColor);
+  display: block;
+}
+
+ul.tagLists a.active {
+  background: var(--textColor);
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page END && Whatnew page STARTED =========*/
+
+
+  
 
 
 
