@@ -1361,7 +1361,44 @@ section.blog-area.firstBlog {
 .blog-content-right {
   direction: rtl;
 }
+.first-blog-wrap h6.status-title {
+  direction: ltr;
+  color: #657C93;
+  font-weight: 500;
+}
 
+.first-blog-wrap h6.status-title span::before {
+  display: none;
+}
+
+.first-blog-wrap h6.status-title span {
+  background: #E1AB3D;
+}
+
+.first-blog-wrap h3 {
+  font-size: 48px;
+  max-width: 500px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.first-blog-wrap h4 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.first-blog-wrap h4:first-child {
+  display: block;
+}
+ 
+
+.first-blog-wrap > img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
 
 
 
