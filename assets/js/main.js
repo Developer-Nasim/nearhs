@@ -25,7 +25,7 @@
         items: 1
       },
       767: {
-        items: 3
+        items: 2
       },
       992: {
         items: 4
@@ -74,6 +74,7 @@
     dots: false,
     responsive: {
       0: {
+        stagePadding: 20,
         items: 1
       },
       767: {
