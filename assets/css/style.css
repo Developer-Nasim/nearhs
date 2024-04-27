@@ -204,9 +204,9 @@ a.theme-btn,.theme-btn {
   gap: 15px;
   background: #0B2240;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 30px;
   transition: .2s;
 }
 a.theme-btn:hover,
@@ -655,6 +655,7 @@ ul.video-lists {
 .single-video {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 10px;
   text-align: right;
 }
@@ -1212,7 +1213,15 @@ section.about-more-area .about-item:nth-child(4),section.about-more-area .about-
 
 
 
+section.vartue_prayars-area {
+  background: #F1F1F1;
+  padding-bottom: 100px;
+}
 
+section.vartue_prayars-area a.theme-btn {
+  margin: auto;
+  margin-top: 50px;
+}
 .blk.blk-big .blk-img > img {
   height: 400px;
   object-fit: cover;
@@ -1259,8 +1268,8 @@ ul.tagLists {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: flex-end;
-  width: 100%;
+  justify-content: flex-end; 
+  width: calc(100% - 390px);
 }
 
 ul.tagLists a {
@@ -1283,7 +1292,7 @@ ul.tagLists a.active {
 
 
 
-/* About page END && Whatnew page STARTED =========*/
+/* Vartue_prayars page END && Blog page STARTED =========*/
 
 
   
@@ -1291,7 +1300,67 @@ ul.tagLists a.active {
 
 
 
+section.blog-area.firstBlog {
+  margin-top: -250px;
+  position: relative;
+  z-index: 2;
+}
 
+.blog-content-wrap {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.blog-content-left {
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  position: relative;
+}
+
+.blog_lists {
+  position: relative;
+}
+
+.blog_lists ul.video-lists {
+  width: 85%;
+  background: #0B2240;
+  border-radius: 20px 0 0 20px;
+}
+
+.blog_lists ul.video-lists .single-video .single-video-content h4 {
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.blog_lists ul.video-lists .single-video .single-video-thumbnail img {
+  width: 107px;
+  height: 74px;
+}
+
+.blog_lists ul.video-lists .single-video {
+  background: #fff;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.blog_lists > h4 {
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  background: #0B2240;
+  padding: 8px 25px;
+  z-index: 2;
+  right: -30px;
+  top: 65px;
+  transform: rotate(90deg);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.blog-content-right {
+  direction: rtl;
+}
 
 
 

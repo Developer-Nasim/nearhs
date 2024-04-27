@@ -169,7 +169,12 @@
         position: unset;
         margin: auto;
     }
-
+    form.search_form{
+        margin: auto;
+    }
+    ul.tagLists { 
+        width: 100%;
+    }
 
 
 }
@@ -350,6 +355,9 @@
     } 
     .blk.blk-big .blk-img > img {
         height: 240px; 
+    }
+    ul.tagLists { 
+      width: 100%;
     }
 
 
