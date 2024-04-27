@@ -500,6 +500,7 @@ section.whatnew-area {
 .blk-img > img {
   display: block;
   width: 100%;
+  border-radius: 10px;
 }
 
 .blk-wrap {
@@ -1155,7 +1156,7 @@ section.about-more-area {
   position: relative;
 }
 
-.about-item.withThemBg .about-blk-wrap {
+.about-item.withThemBg .about-blk-wrap,.about-item.withGrayBg {
   padding-right: 50px;
 }
 
@@ -1181,10 +1182,12 @@ section.about-more-area .about-item:nth-child(4),section.about-more-area .about-
 
 .about-item.withGrayBg {
   background: #F5F5F5;
-  border-radius: 10px;
-  padding-right: 50px;
+  border-radius: 10px; 
 }
-
+.hero-wrap p.breadcramp {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
 
 
 
