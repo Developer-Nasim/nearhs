@@ -328,6 +328,7 @@
 
 
 
+
     .progress__content {
         flex-direction: column-reverse;
     }
@@ -386,6 +387,10 @@
         font-size: 16px;
     }
     .AdditionalTab__btns ul {
+        flex-wrap: wrap;
+    }
+
+    section.classes-area.classes-second .classes-top-opt-bar{
         flex-wrap: wrap;
     }
 
@@ -644,16 +649,19 @@
     .classes-top-opt-bar {
         flex-direction: column-reverse;
     }
-    
-    .classes-top-opt-bar .section-title,.classes-top-opt-bar .section-title h3 {
-        width: 100%;
-    }
+     
     
     .classes-top-opt-bar form.search_form {
         width: 100%;
         margin-bottom: 30px;
     }
 
+
+    section.leaflet-area.leafletsecond .section-title h3,
+    .classes-top-opt-bar .section-title,.classes-top-opt-bar .section-title h3,
+    section.gallerysecond-area .section-title h3{
+        width: 100%;
+    }
 
 
 
@@ -702,7 +710,6 @@
         margin-bottom: 20px;
     }
     
-    .progress__wrp .flex p {}
     
     .progress__wrp .flex {
         font-size: 20px;
@@ -765,7 +772,6 @@
         object-fit: contain;
     }
     
-    button {}
     
     .donation__btns {
         flex-direction: column;
@@ -1007,7 +1013,6 @@
 .GeneralDn-btn button i {
     width: 70px;
 }
-
 
 }
  

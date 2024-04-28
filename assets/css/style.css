@@ -676,9 +676,11 @@ ul.video-lists {
   padding: 20px;
   border-radius: 20px;
   width: 456px;
+} 
+.video-wrap ul.video-lists{
   max-height: 740px;
   overflow: auto;
-} 
+}
 .single-video {
   display: flex;
   align-items: center;
@@ -1136,12 +1138,7 @@ a.top-logo {
 /*-----stHero- Secstiosn Start ----------*/
 
 .stHero-area {background-size: cover;background-position: center;}
-.container {
-}
-.row {
-}
-.col-lg-12 {
-}
+
 .stHero-text {text-align: right;color: #fff;padding: 100px 0;}
 
 .stHero-text p {
@@ -1160,8 +1157,7 @@ a.top-logo {
 
 /*------Crowdfunding Secstiosn Start ----------*/
 .Crowdfunding-area {margin-bottom: 50px;}
-.section-title {
-}
+
 .progress__content {display: flex;background: var(--themeColor);color: #fff;border-radius: 19px;justify-content: space-between;padding: 45px 40px;gap: 60px;align-items: center;}
 
 .progress__content>button {width: 200px;text-align: center;display: flex;align-items: center;justify-content: center;flex-shrink: 0;height: 66px;}
@@ -1229,8 +1225,7 @@ a.top-logo {
     align-items: center;
     justify-content: center;
 }
-.col-lg-6 {
-}
+
 .Crowd__blk {background: #F1F1F1;text-align: center;padding: 90px;border-radius: 20px;margin-top: 60px;}
 
 .Crowd__blk h1 {
@@ -1354,7 +1349,6 @@ a.top-logo {
     max-width: 230px;
     width: 100%;
 }
-.input__blk {}
 
 .input__blk label {margin-bottom: 10px;}
 
@@ -1381,14 +1375,12 @@ a.top-logo {
     direction: rtl;
     padding-right: 15px;
 }
-.wide {
-}
+
 /*------donation Section End ----------*/
 
 /*------CrowdTab Secstiosn Start ----------*/
 .CrowdTab-area {padding-bottom: 100px;background: #F1F1F1;}
-.CrowdTab__btn {
-}
+
 
 .CrowdTab__btn ul {
     justify-content: end;
@@ -1670,10 +1662,7 @@ a.top-logo {
 .flex {display: flex;position: relative;}
 .prayer__blk .flex .select__blk {min-width: 140px;color: #657C92;}
 
-.prayer__blk .flex .select__blk {
-}
-.wide {
-}
+
 .radio__btns {display: flex;align-items: center;gap: 10px;margin-top: 20px;justify-content: space-between;}
 .radio__btns .form-check {
     display: flex;
@@ -1697,10 +1686,7 @@ a.top-logo {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23E1AB3D'/%3e%3c/svg%3e");
     border-color: #E1AB3D;
 }
-.form-check-input {
-}
-.form-check-label {
-}
+
 .radio__btn__btm {display: flex;align-items: center;margin-top: 20px;}
 
 .radio__btn__btm hr {
@@ -1786,10 +1772,7 @@ a.top-logo {
 }
 
 .cradit__card .flex button.active {background: var(--themeColor);color: #ffff;}
-.text {
-}
-.cradit__card__btn {
-}
+
 
 .cradit__card__btn button {
     background: var(--themeColor);
@@ -1843,8 +1826,6 @@ a.top-logo {
 
 .GeneralDn-area {padding-bottom: 100px;}
 
-.section-title {
-}
 .GeneralDn-btn {display: flex;align-items: center;justify-content: center;gap: 20px;margin-bottom: 100px;}
 
 .GeneralDn-btn button {
@@ -1915,11 +1896,7 @@ a.top-logo {
     font-size: 25px;
 }
 
-.GeneralDn__content > p {}
-.theme-btn {
-}
-.v2 {
-}
+
 .GeneralDn__blk .input__blk {text-align: right;margin: 0 40px;}
 .numFlex {display: flex;}
 
@@ -1942,10 +1919,7 @@ a.top-logo {
 /*------AdditionalTab Secstiosn Start ----------*/
 
 .AdditionalTab-area {background: #F1F1F1;padding-bottom: 90px;}
-.white {
-}
-.AdditionalTab-wrap {
-}
+
 .AdditionalTab__btns {margin-bottom: 100px;}
 
 .AdditionalTab__btns button {
@@ -1966,26 +1940,7 @@ a.top-logo {
     flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
-.nav {
-}
-.nav-pills {
-}
-.mb-3 {
-}
-.nav-item {
-}
-.nav-link {
-}
-.active {
-}
-.tab-content {
-}
-.tab-pane {
-}
-.fade {
-}
-.show {
-}
+
 .AdditionalTab__body {text-align: right;}
 .AdditionalTab__blk {margin-bottom: 70px;}
 
@@ -1998,7 +1953,6 @@ a.top-logo {
     margin-left: auto;
 }
 
-.AdditionalTab__blk p a {}
 
 .AdditionalTab__blk ul {
     margin-bottom: 20px;
@@ -2010,8 +1964,6 @@ a.top-logo {
 .AdditionalTab__blk h3 {
     font-size: 32px;
     color: var(--themeColor);
-}
-.list-disk {
 }
 
 .list-disk li {
@@ -2366,7 +2318,6 @@ img.fblimg4 {
   margin-bottom: 70px;
 }
 
-img.fblimg4 {}
 
 img.fblimg5 {
   margin-top: 100px;
@@ -2395,7 +2346,6 @@ img.fblimg5 {
   margin-bottom: 15px;
 }
 
-.count-blk {}
 
 .count-blk label {
   display: flex;
@@ -2552,8 +2502,7 @@ section.classes-area.classes-second {
 }
 
 section.classes-area.classes-second .classes-top-opt-bar {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; 
   justify-content: space-between;
   align-items: baseline;
   gap: 10px;
@@ -2600,29 +2549,150 @@ section.classes-area.classes-second a.theme-btn {
 
 
 
-/* About page END && Whatnew page STARTED =========*/
+
+
+/* Classes page END && QNA page STARTED =========*/
 
 
   
 
 
 
+form.qna-form {
+  background: #0B2240;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+}
+
+form.qna-form h4 {
+  font-size: 30px;
+  color: #E1AB3D;
+  margin-bottom: 15px;
+}
+
+form.qna-form input,form.qna-form textarea {
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+form.qna-form button.theme-btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: #E1AB3D;
+  padding: 10px;
+  color: #0B2240;
+} 
+.qna-filter ul.tagLists {
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+.qna-filter {
+  margin-bottom: 50px;
+}
+
+section.blog-area.qna {
+  background: #F1F1F1;
+}
+
+section.blog-area.qna .blog-content-wrap {
+  padding-right: 0;
+  background: no-repeat;
+  padding-left: 0;
+}
+
+.qna-content-wrap {
+  padding-left: 20px;
+}
+.qna-content-wrap a.theme-btn {
+  margin: auto;
+  margin-top: 20px;
+}
+.qna-content-wrap .blk{
+  margin-bottom: 30px;
+}
 
 
 
 
 
 
-
-
-
-/* About page END && Whatnew page STARTED =========*/
+/* QNA page END && FAQ page STARTED =========*/
 
 
   
 
 
 
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 15px !important;
+  overflow: hidden;
+  text-align: right;
+}
+
+.accordion-item button.accordion-button {
+  text-align: right;
+  position: relative;
+  font-size: 20px;
+  padding-left: 60px;
+  color: #0B2240;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-item button.accordion-button:after {
+  display: none;
+}
+
+.accordion-item 
+.accordion-body p {
+  color: #657C93;
+}
+
+.accordion-item button.accordion-button span {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: #0B2240;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: .2s;
+  border: 1px solid #0B2240;
+}
+
+.accordion-item button.accordion-button span:after,.accordion-item button.accordion-button span:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: #E1AB3D;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.accordion-item button.accordion-button span:after {
+  width: 3px;
+  height: 20px;
+}
+.accordion-item button.accordion-button:not(.collapsed) span{
+  background: transparent;
+}
+.accordion-item button.accordion-button:not(.collapsed) span::after{
+  opacity: 0;
+}
+.accordion-item button.accordion-button:not(.collapsed) span::before{
+  background: #0B2240;
+}
 
 
 
@@ -2630,18 +2700,58 @@ section.classes-area.classes-second a.theme-btn {
 
 
 
-
-
-/* About page END && Whatnew page STARTED =========*/
+/* FAQ page END && Gallery page STARTED =========*/
 
 
   
 
 
+.blk-wrap > h5 span b {
+  display: block;
+  color: #657C93;
+  font-size: 20px;
+  font-weight: 400;
+}
+section.leaflet-area.leafletsecond .blk.bstyle2 {
+  margin-bottom: 30px;
+}
 
+section.leaflet-area.leafletsecond {
+  padding-bottom: 150px;
+}
 
+section.leaflet-area.leafletsecond a.theme-btn {
+  margin: auto;
+  margin-top: 40px;
+}
+section.gallerysecond-area {
+  padding-bottom: 150px;
+  background: #fff;
+}
 
+section.gallerysecond-area .col-lg-12 .single-gallery {
+  height: 600px;
+}
 
+section.gallerysecond-area .single-gallery {
+  margin-bottom: 30px;
+}
+
+section.gallerysecond-area a.theme-btn {
+  margin: auto;
+  margin-top: 20px;
+}
+
+section.gallerysecond-area .single-v-item {
+  padding: 0;
+}
+section.classes-area.classes-second.gallerythird .single-v-item {
+  padding: 0;
+}
+
+section.classes-area.classes-second.gallerythird .single-v-item .video-actions {
+  padding: 0 15px 15px 15px;
+}
 
 
 
