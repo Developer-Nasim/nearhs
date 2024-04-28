@@ -11,6 +11,7 @@
   --themeColor: #0B2240;
   --shadow: #0000007d;
   --boxShadowColor: #0000004a;
+  --colorV2 : #E1AB3D;
 }
 body {
   font-family: var(--bodyFont);
@@ -1103,9 +1104,392 @@ a.top-logo {
 
 
 
+/*-----stHero- Secstiosn Start ----------*/
+
+.stHero-area {background-size: cover;background-position: center;}
+.container {
+}
+.row {
+}
+.col-lg-12 {
+}
+.stHero-text {text-align: right;color: #fff;padding: 100px 0;}
+
+.stHero-text p {
+    font-size: 16px;
+}
+
+.stHero-text p span {
+    opacity: .5;
+}
+
+.stHero-text h1 {
+    font-size: 62px;
+    color: #fff;
+}
+/*-----stHero- Section End ----------*/
+
+/*------Crowdfunding Secstiosn Start ----------*/
+.Crowdfunding-area {margin-bottom: 50px;}
+.section-title {
+}
+.progress__content {display: flex;background: var(--themeColor);color: #fff;border-radius: 19px;justify-content: space-between;padding: 45px 40px;gap: 60px;align-items: center;}
+
+.progress__content>button {width: 200px;text-align: center;display: flex;align-items: center;justify-content: center;flex-shrink: 0;height: 66px;}
+
+.theme-btn.v2 {
+    background: var(--colorV2);
+    color: #0c2f5c;
+    font-size: 28px;
+}
+
+.progress__content .user__blk {
+    align-items: start;
+}
+
+.progress__content .user__blk i {
+    background: #657C93;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.progress__wrp {
+    width: 100%;
+}
+.progress {direction: rtl;height: 10px;}
+.progress-bar {height: 10px;background: var(--colorV2);border-radius: 20px;}
+.progress__wrp .flex {display: flex;justify-content: space-between;margin-top: 16px;font-size: 30px;}
+
+.progress__wrp .flex a {
+    color: var(--colorV2);
+}
+
+.progress__wrp .flex p {
+    margin: 0;
+    direction: rtl;
+}
+
+.progress__wrp .flex p span {
+    color: var(--colorV2);
+}
+.user__blk {display: flex;align-items: center;text-align: right;gap: 15px;}
+
+.user__blk span {
+    font-size: 30px;
+}
+
+.progress__content .user__blk button {
+    display: block;
+    padding: 14px 24px;
+    background: var(--colorV2);
+    width: max-content;
+    color: var(--themeColor);
+    border-radius: 6px;
+    margin-top: 16px;
+    margin-left: auto;
+}
+
+.user__blk i {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-lg-6 {
+}
+.Crowd__blk {background: #F1F1F1;text-align: center;padding: 90px;border-radius: 20px;margin-top: 60px;}
+
+.Crowd__blk h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.Crowd__blk p {
+    font-size: 30px;
+    opacity: .5;
+    margin-bottom: 50px;
+}
+
+.Crowd__blk ul {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.Crowd__blk ul li h5 {
+    font-size: 55px;
+    font-weight: 400;
+    color: var(--colorV2);
+}
+
+.Crowd__blk ul li h3 {
+    font-size: 30px;
+    color: #0B2240;
+}
+
+.Crowd__blk ul li {
+    padding: 0 30px;
+    border-left: 1px solid #657C93;
+}
+
+.Crowd__blk ul li:first-child {
+    border: none;
+}
+/*------Crowdfunding Section End ----------*/
+
+/*------CrowdItem Secstiosn Start ----------*/
+.CrowdItem-area {background: var(--themeColor);color: #fff;padding: 50px;}
+.CrowdItem-wrap {display: flex;gap: 10px;}
+.CrowdItem__blk {width: 20%;text-align: center;border: 1px solid #F5F5F5;border-radius: 20px;display: flex;flex-direction: column;justify-content: flex-end;gap: 30px;overflow: hidden;padding-top: 20px;}
+
+.CrowdItem__blk i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CrowdItem__text {background: #F1F1F1;color: var(--themeColor);padding: 16px 0;}
+
+.CrowdItem__text span {
+    line-height: 1;
+    display: block;
+}
+
+.CrowdItem__text h3 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.CrowdItem__text p {
+    margin: 0;
+    color: #657C93;
+}
+/*------CrowdItem Section End ----------*/
+
+/*------donation Secstiosn Start ----------*/
+.donation-area {padding: 100px 0;}
+.donation-wrap {text-align: center;}
+
+.donation-wrap > a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--themeColor);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.donation__btns {display: flex;justify-content: center;border: 1px solid var(--themeColor);width: max-content;margin: auto;border-radius: 6px;overflow: hidden;margin-bottom: 40px;}
+
+.donation__btns button {
+    background: #F1F1F1;
+    /* border: 1px solid var(--themeColor); */
+    width: 300px;
+    height: 90px;
+    color: #657C93;
+    font-size: 18px;
+}
+
+.donation__btns button b {
+    display: block;
+    font-size: 25px;
+    color: var(--themeColor);
+}
+.donation__btns button.active {background: var(--themeColor);color: #fff;}
+
+.donation__btns button.active b {
+    color: #fff;
+}
+.donation__option {display: flex;align-items: flex-end;justify-content: center;text-align: right;gap: 10px;}
+
+.donation__option > button {
+    height: 56px;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+}
+
+.donation__option .select__blk .nice-select {
+    border: 1px solid var(--themeColor);
+}
+
+.donation__option .input__blk {
+    max-width: 230px;
+    width: 100%;
+}
+.input__blk {}
+
+.input__blk label {margin-bottom: 10px;}
+
+.input__blk input {
+    border-radius: 6px;
+    border: 1px solid var(--themeColor);
+    height: 56px;
+    margin: 0;
+    direction: rtl;
+    padding: 0 12px;
+}
+.select__blk {height: 56px;}
+
+.select__blk .nice-select:after {
+    right: auto;
+    left: 16px;
+}
+
+.select__blk .nice-select {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    direction: rtl;
+    padding-right: 15px;
+}
+.wide {
+}
+/*------donation Section End ----------*/
+
+/*------CrowdTab Secstiosn Start ----------*/
+.CrowdTab-area {padding-bottom: 100px;background: #F1F1F1;}
+.CrowdTab__btn {
+}
+
+.CrowdTab__btn ul {
+    justify-content: end;
+    gap: 20px;
+}
+
+.CrowdTab__btn ul li button {
+    background: #fff !important;
+    color: var(--colorV2);
+    font-size: 32px;
+    font-weight: 700;
+    height: 56px;
+    width: 275px;
+    border-radius: 0 0 12px 12px !important;
+}
+
+.CrowdTab__btn ul li button.active {
+    background: var(--themeColor) !important;
+    color: var(--colorV2) !important;
+}
+
+.donatetab__top {display: flex;justify-content: space-between;margin: 50px 0;}
+
+.donatetab__top .select__blk {
+    width: 100%;
+    max-width: 180px;
+}
+.src__blk {display: flex;background: #fff;border-radius: 40px;padding: 0 14px;justify-content: space-between;align-items: center;}
+
+.src__blk button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorV2);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.src__blk input {
+    margin: 0;
+    border: none;
+}
+
+.donateItem__blk {background: #fff;border-radius: 20px;padding: 25px 22px 20px;margin-bottom: 20px;}
+
+.donateItem__blk.v2 {
+    padding-top: 12px;
+}
+
+.donateItem__blk.v2 > p {
+    margin: 0;
+    font-size: 18px;
+    text-align: right;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: 70px;
+    margin-top: 6px;
+}
+
+.donateItem__blk .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donateItem__blk.v2 .flex {
+    align-items: center;
+}
+
+.donateItem__blk.v2 .flex > p {
+    font-size: 30px;
+}
+
+.donateItem__blk .flex p {
+    margin: 0;
+}
+
+.donateItem__blk .flex button {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorV2);
+    border-radius: 6px;
+}
+
+.donateItem__blk .user__blk i {
+    background: #F1F1F1;
+    width: 58px;
+    height: 58px;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.donateItem__blk .user__blk span {
+    max-width: 170px;
+    display: block;
+}
+
+.donateItem__blk ul {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #657C93;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.btnBlack {width: max-content;margin: auto;padding: 10px 40px;}
 
 
+.CrowdTab__video {margin-bottom: 50px;}
 
+.CrowdTab__video .main-video {
+    margin: 50px 0;
+}
+.CrowdTab__videoText {text-align: right;margin-top: 50px;padding-right: 20px;}
+
+.CrowdTab__videoText p {
+    margin-bottom: 24px;
+}
+.poster-img {margin-top: 50px;}
+/*------CrowdTab Section End ----------*/
+
+/*------ Secstiosn Start ----------*/
+/*------ Section End ----------*/
+
+/*------ Secstiosn Start ----------*/
+/*------ Section End ----------*/
+
+/*------ Secstiosn Start ----------*/
+/*------ Section End ----------*/
 
 
 
