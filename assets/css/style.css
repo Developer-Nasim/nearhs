@@ -656,9 +656,11 @@ ul.video-lists {
   padding: 20px;
   border-radius: 20px;
   width: 456px;
+} 
+.video-wrap ul.video-lists{
   max-height: 740px;
   overflow: auto;
-} 
+}
 .single-video {
   display: flex;
   align-items: center;
@@ -1641,8 +1643,7 @@ section.classes-area.classes-second {
 }
 
 section.classes-area.classes-second .classes-top-opt-bar {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; 
   justify-content: space-between;
   align-items: baseline;
   gap: 10px;
@@ -1689,29 +1690,150 @@ section.classes-area.classes-second a.theme-btn {
 
 
 
-/* About page END && Whatnew page STARTED =========*/
+
+
+/* Classes page END && QNA page STARTED =========*/
 
 
   
 
 
 
+form.qna-form {
+  background: #0B2240;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+}
+
+form.qna-form h4 {
+  font-size: 30px;
+  color: #E1AB3D;
+  margin-bottom: 15px;
+}
+
+form.qna-form input,form.qna-form textarea {
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+form.qna-form button.theme-btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: #E1AB3D;
+  padding: 10px;
+  color: #0B2240;
+} 
+.qna-filter ul.tagLists {
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+.qna-filter {
+  margin-bottom: 50px;
+}
+
+section.blog-area.qna {
+  background: #F1F1F1;
+}
+
+section.blog-area.qna .blog-content-wrap {
+  padding-right: 0;
+  background: no-repeat;
+  padding-left: 0;
+}
+
+.qna-content-wrap {
+  padding-left: 20px;
+}
+.qna-content-wrap a.theme-btn {
+  margin: auto;
+  margin-top: 20px;
+}
+.qna-content-wrap .blk{
+  margin-bottom: 30px;
+}
 
 
 
 
 
 
-
-
-
-/* About page END && Whatnew page STARTED =========*/
+/* QNA page END && FAQ page STARTED =========*/
 
 
   
 
 
 
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 15px !important;
+  overflow: hidden;
+  text-align: right;
+}
+
+.accordion-item button.accordion-button {
+  text-align: right;
+  position: relative;
+  font-size: 20px;
+  padding-left: 60px;
+  color: #0B2240;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-item button.accordion-button:after {
+  display: none;
+}
+
+.accordion-item 
+.accordion-body p {
+  color: #657C93;
+}
+
+.accordion-item button.accordion-button span {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: #0B2240;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: .2s;
+  border: 1px solid #0B2240;
+}
+
+.accordion-item button.accordion-button span:after,.accordion-item button.accordion-button span:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: #E1AB3D;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.accordion-item button.accordion-button span:after {
+  width: 3px;
+  height: 20px;
+}
+.accordion-item button.accordion-button:not(.collapsed) span{
+  background: transparent;
+}
+.accordion-item button.accordion-button:not(.collapsed) span::after{
+  opacity: 0;
+}
+.accordion-item button.accordion-button:not(.collapsed) span::before{
+  background: #0B2240;
+}
 
 
 
@@ -1719,18 +1841,58 @@ section.classes-area.classes-second a.theme-btn {
 
 
 
-
-
-/* About page END && Whatnew page STARTED =========*/
+/* FAQ page END && Gallery page STARTED =========*/
 
 
   
 
 
+.blk-wrap > h5 span b {
+  display: block;
+  color: #657C93;
+  font-size: 20px;
+  font-weight: 400;
+}
+section.leaflet-area.leafletsecond .blk.bstyle2 {
+  margin-bottom: 30px;
+}
 
+section.leaflet-area.leafletsecond {
+  padding-bottom: 150px;
+}
 
+section.leaflet-area.leafletsecond a.theme-btn {
+  margin: auto;
+  margin-top: 40px;
+}
+section.gallerysecond-area {
+  padding-bottom: 150px;
+  background: #fff;
+}
 
+section.gallerysecond-area .col-lg-12 .single-gallery {
+  height: 600px;
+}
 
+section.gallerysecond-area .single-gallery {
+  margin-bottom: 30px;
+}
+
+section.gallerysecond-area a.theme-btn {
+  margin: auto;
+  margin-top: 20px;
+}
+
+section.gallerysecond-area .single-v-item {
+  padding: 0;
+}
+section.classes-area.classes-second.gallerythird .single-v-item {
+  padding: 0;
+}
+
+section.classes-area.classes-second.gallerythird .single-v-item .video-actions {
+  padding: 0 15px 15px 15px;
+}
 
 
 
