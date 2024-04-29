@@ -22,7 +22,9 @@
     section.blog-area .section-title h3 {
         font-size: 50px;
     }
-
+    .progress__content {
+        gap: 40px;
+    }
 }
 
 
@@ -96,6 +98,103 @@
     }
     section.blog-area .section-title h3 {
         font-size: 42px;
+    }
+
+    .progress__content {
+        gap: 40px;
+    }
+    .progress__content>button {
+        width: 150px;
+        height: 57px;
+    }
+    
+    .progress__wrp .flex p {
+        font-size: 20px;
+    }
+    
+    .progress__wrp .flex a {
+        font-size: 20px;
+    }
+    
+    .user__blk span {
+        font-size: 23px;
+    }
+    
+    .user__blk i {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .Crowd__blk ul li {
+        padding: 0 20px;
+    }
+    
+    .Crowd__blk {
+        padding: 55px;
+    }
+    
+    .Crowd__blk i {
+        display: block;
+        height: 176px;
+    }
+    
+    .donateItem__blk.v2 .flex > p {
+        font-size: 22px;
+    }
+    
+    .donateItem__blk .user__blk i {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .donateItem__blk.v2 > p {
+        margin-right: 65px;
+    }
+    .campaign__text {
+        padding: 24px;
+        padding-top: 0;
+    }
+
+
+    .radio__btns {
+        flex-wrap: wrap;
+        justify-content: end;
+        gap: 14px 20px;
+    }
+    
+    .cradit__card {
+        padding: 30px;
+    }
+    
+    .cradit__card .flex button {
+        font-size: 24px;
+    }
+    
+
+
+
+    .GeneralDn__blk h3 {
+        font-size: 24px;
+        padding: 0 20px;
+        height: 150px;
+    }
+    
+    .GeneralDn__content {
+        padding: 0 15px;
+    }
+    
+    .GeneralDn__blk > button {
+        width: calc(100% - 40px);
+    }
+    
+    .GeneralDn__content h4 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    
+    .AdditionalTab__btns button {
+        width: 155px;
+        font-size: 16px;
     }
 }
 
@@ -226,9 +325,75 @@
         margin-bottom: 30px;
     }
 
+
+
+
+
+    .progress__content {
+        flex-direction: column-reverse;
+    }
+    
+    .progress__content .user__blk {
+        margin-left: auto;
+    }
+    
+    .CrowdItem__blk {
+        width: 32%;
+    }
+    
+    .CrowdItem-wrap {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    
+    .CrowdTab__btn ul li button {
+        width: 200px;
+        font-size: 26px;
+    }
+    .CrowdTab__video .main-video {
+        margin-bottom: 0;
+    }
+    .campaigns-area .row {
+        justify-content: end;
+    }
+
+
+
+
+
+
+    .GeneralDn__blk h3 {
+        font-size: 24px;
+        padding: 0 20px;
+        height: 150px;
+    }
+    
+    .GeneralDn__content {
+        padding: 0 15px;
+    }
+    
+    .GeneralDn__blk > button {
+        width: calc(100% - 40px);
+        margin-top: 32px;
+    }
+    
+    .GeneralDn__content h4 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    
+    .AdditionalTab__btns button {
+        width: 155px;
+        font-size: 16px;
+    }
+    .AdditionalTab__btns ul {
+        flex-wrap: wrap;
+    }
+
     section.classes-area.classes-second .classes-top-opt-bar{
         flex-wrap: wrap;
     }
+
 }
 
  
@@ -282,7 +447,7 @@
         transform: translateX(-50%);
     } 
     .hero-wrap h1 {
-        font-size: 92px;
+        font-size: 80px;
         color: #fff;
         line-height: 80px;
         margin-left: auto;
@@ -500,10 +665,354 @@
 
 
 
-    section.classes-area.classes-second .classes-top-opt-bar{
+
+    .progress__content {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 35px;
+    }
+    
+    .progress__content .user__blk {
+        margin-left: auto;
+    }
+    
+    .CrowdItem__blk {
+        width: 48%;
+        padding-top: 10px;
+        border-radius: 13px;
+    }
+    
+    .CrowdItem-wrap {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    
+    .CrowdTab__btn ul li button {
+        width: auto;
+        font-size: 20px;
+        height: 40px;
+        border-radius: 0 0 8px 8px !important;
+    }
+    .CrowdTab__video .main-video {
+        margin-bottom: 0;
+    }
+    .stHero-text h1 {
+        font-size: 48px;
+    }
+    
+    section.Crowdfunding-area .section-title h3 {
+        width: max-content;
+        font-size: 32px;
+        border-radius: 0 0 16px 16px;
+    }
+    
+    section.Crowdfunding-area .section-title {
+        margin-bottom: 20px;
+    }
+    
+    
+    .progress__wrp .flex {
+        font-size: 20px;
+        gap: 20px;
+    }
+    
+    .progress__content>button {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .Crowd__blk {
+        margin-top: 30px;
+        padding: 24px;
+    }
+    
+    .Crowd__blk ul li {
+        padding: 0 20px;
+    }
+    
+    .Crowd__blk ul li h5 {
+        font-size: 40px;
+    }
+    
+    .Crowd__blk ul li h3 {
+        font-size: 23px;
+    }
+    
+    .Crowd__blk p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        max-width: 200px;
+        margin-inline: auto;
+    }
+    
+    .Crowd__blk i {
+        display: block;
+        max-width: 120px;
+        margin: auto;
+    }
+    
+    .CrowdItem__text h3 {
+        font-size: 20px;
+    }
+    
+    .CrowdItem__text p {
+        font-size: 14px;
+    }
+    
+    .CrowdItem__text span {
+        font-size: 14px;
+    }
+    
+    .CrowdItem__blk i {
+        height: 138px;
+    }
+    
+    .CrowdItem__blk i img {
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    
+    .donation__btns {
+        flex-direction: column;
+    }
+    
+    .donation__option {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    .donation__option > button {
+        width: 100%;
+    }
+    
+    .donation__option .input__blk {
+        max-width: 100%;
+    }
+    
+    .donation-area {
+        padding: 70px 0;
+    }
+    
+    .CrowdTab__btn ul {
+        gap: 10px;
+    }
+    
+    .donatetab__top {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    .donatetab__top .select__blk {
+        max-width: 100%;
+    }
+    
+    .donateItem__blk .user__blk i {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .donateItem__blk .user__blk span {
+        font-size: 24px;
+    }
+    
+    .donateItem__blk.v2 .flex > p {
+        font-size: 24px;
+    }
+    
+    .donateItem__blk.v2 > p {
+        font-size: 14px;
+        max-width: 200px;
+        margin-right: 56px;
+    }
+    
+    .CrowdTab-area {
+        padding-bottom: 140px;
+    }
+    .CrowdTab__video .varea {
+        height: 220px;
+    }
+    
+    .CrowdTab__video .varea img {
+        height: 100%;
+    }
+    
+    .CrowdTab__video .varea a {
+        max-width: 50px;
+    }
+    .donateItem__blk .flex button {
+        width: 47px;
+        height: 47px;
+        padding: 12px;
+    }
+    
+    .donateItem__blk ul {
+        font-size: 16px;
+    }
+
+
+
+
+
+    .campaign__blk{
+    max-width: 350px;
+    margin-inline: auto;
+}
+    .campaigns-area .row {
+        justify-content: end;
+    }
+    
+    .hero-wrap .f-55 {
+        font-size: 30px;
+    }
+    
+    section.hero-area {
+        padding: 120px 0 100px;
+    }
+    
+    .campaign__blk >i {
+        height: 200px;
+    }
+    
+    .campaign__text h3 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .mt-100 {
+        margin-top: 60px;
+    }
+
+
+
+
+
+
+
+    .redemption-top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redemption-top .input__blk {
+        width: 100%;
+    }
+    
+    .redemption-top button {
+        max-width: 100%;
+    }
+    
+    .prayer__title h1 {
+        text-align: center;
+    }
+    
+    .prayer__blk .flex {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    
+    .prayer__blk .flex .input__blk:first-child {
+        max-width: calc(100% - 130px);
+    }
+    
+    .prayer__blk .flex .select__blk {
+        min-width: 120px;
+    }
+    
+    .radio__btns {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .prayer__blk {
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    .close__btn {
+        right: 0;
+        top: -32px;
+    }
+    
+    .prayer__blk .flex .input__blk {
+        width: 100%;
+    }
+    
+    .cradit__card {
+        padding: 40px 30px;
+    }
+    
+    .cradit__card .flex {
+        flex-direction: column;
+    }
+    
+    .cradit__card .flex button {
+        height: 66px;
+        font-size: 24px;
+    }
+    
+    .contact__form h1 {
+        text-align: center;
+    }
+    
+    .contact__form .form-check {
+        align-items: flex-start;
+    }
+    
+    .contact__form .form-check input {
+        margin-top: 6px;
+    }
+
+
+
+    .GeneralDn__blk h3 {
+        font-size: 24px;
+        padding: 0 20px;
+        height: 150px;
+    }
+    
+    .GeneralDn__content {
+        padding: 0 15px;
+    }
+    
+    .GeneralDn__blk > button {
+        width: calc(100% - 40px);
+        margin-top: 32px;
+    }
+    
+    .GeneralDn__content h4 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    
+    .AdditionalTab__btns button {
+        width: 100%;
+        font-size: 16px;
+    }
+    .AdditionalTab__btns ul {
         flex-wrap: wrap;
     }
 
+.AdditionalTab__btns ul li {
+    width: 49%;
+}
+.GeneralDn-btn {
+    flex-direction: column;
+}
+
+.GeneralDn-btn button span {
+    width: 250px;
+}
+
+.GeneralDn-btn button {
+    height: 70px;
+    border-radius: 15px;
+}
+
+.GeneralDn-btn button i {
+    width: 70px;
+}
 
 }
  
