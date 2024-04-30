@@ -1013,6 +1013,31 @@
 .GeneralDn-btn button i {
     width: 70px;
 }
+ul.fixed_menus {
+    padding: 20px 10px;
+}
+
+ul.fixed_menus a {
+    width: 50px;
+}
+
+.qtyIncrements {
+    top: 46%;
+}
+
+a.highlightedbanner {
+    max-width: 75px;
+}
+.modal-dialog {
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
 
 }
  

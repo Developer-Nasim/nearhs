@@ -4,7 +4,9 @@
  // menu 
   $('.siteBar-btn').click( function (){ 
     $('.mobile-menu').toggleClass('siteBar');
+    $('body').toggleClass('siteBar_showing');
     $('.menuShadow').toggleClass('show');
+    $('.siteBar-btn').toggleClass('showing');
   }); 
 
     
@@ -97,8 +99,7 @@
     const target = e.target
     $("#video-popup-overlay,#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();
     
-    var url= target.href+'?autoplay=1';
-    console.log(url)
+    var url= target.href+'?autoplay=1'; 
      
     $("#video-popup-iframe").attr('src', url);
     

@@ -130,7 +130,7 @@ li {
 .header-area {
   padding: 15px 0; 
   width: 100%;
-  z-index: 99; 
+  z-index: 999; 
   background: var(--themeColor);
   position: relative;
 }
@@ -321,21 +321,24 @@ a.theme-btn:hover,
 /* mobile-menu START */
 .mobile-menu {
   position: fixed;
-  width: 320px;
+  width: 100%;
   overflow: auto;
   min-height: min-content;
   height: 100vh;
   background: var(--white);
   z-index: 99;
   box-shadow: 0px 0px 9px -1px var(--boxShadowColor);
-  top: 0;
+  top: 65px;
   left: 0;
-  transition: .3s;
-  margin-left: -400px;
+  transition: .1s; 
   padding: 30px;
+  opacity: 0;
+  visibility: hidden;
 }
 .siteBar{
-  margin-left: 0; 
+  opacity: 1;
+  visibility: visible;
+  padding-top: 70px;
 }
 .menuShadow {
   position: fixed;
@@ -366,31 +369,60 @@ a.theme-btn:hover,
   color: var(--bodyFont);
   font-size: 16px;
   line-height: 40px;
+  position: relative;
   transition: .3s;
 }
-
+.mobile-menu nav {
+  direction: rtl;
+}
 .mobile-menu ul li a:hover { 
   color: var(--themeColor);
 } 
-.mobile-menu a.bars {
+
+.mobile-menu nav > ul > li > a {
+  border-top: 1px solid #657C93;
+  display: block;
+}
+.mobile-menu nav > ul > li:first-child > a{
+  border-top: none;
+}
+.mobile-menu ul li ul{
+  display: none;
+}
+.mobile-menu ul li:hover ul{
+  display: block;
+}
+.mobile-menu nav > ul > li:hover > a{
+  font-weight: 700;
+}
+.mobile-menu nav > ul > li > a img {
   position: absolute;
-  right: 20px;
-  top: 15px;
-  width: 40px;
-  height: 40px;
-  background: var(--colorV2);
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  font-size: 26px;
-  color: var(--white);
-  box-shadow: 0px 0px 17px -2px var(--boxShadowColor);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(90deg);
+  filter: invert(1);
+  transition: .2s;
 }
 
+.mobile-menu nav > ul > li:hover > a img {
+  transform: translateY(-50%) rotate(0deg);
+} 
+body.siteBar_showing {
+  overflow: hidden;
+}
+a.siteBar-btn.showing span {
+  background: transparent;
+}
 
+a.siteBar-btn.showing span:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+a.siteBar-btn.showing span:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
 
 
 /* popup css start */
@@ -563,8 +595,32 @@ section.hero-area > img {
   padding: 10px 50px;
   border-radius: 0 0 20px 20px;
   color: #E1AB3D;
+  position: relative;
+  overflow: hidden;
+  transition: .2s;
 }
-
+h3.with_arrow_btn:hover{
+  padding-left: 100px;
+}
+h3.with_arrow_btn button {
+  background: #E1AB3D;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+}
+h3.with_arrow_btn:hover button { 
+  opacity: 1;
+  visibility: visible; 
+}
 .st-f62 .section-title h3,.stagepadsections > h4 {
     font-size: 62px;
 }
@@ -2862,23 +2918,328 @@ section.classes-area.classes-second.gallerythird .single-v-item .video-actions {
 
 
 
+.left_button-for-popup, a.whatsapp-contenct,a.highlightedbanner,ul.fixed_menus,.qtyIncrements {
+  position: fixed;
+  z-index: 9;
+}
+
+ul.fixed_menus {
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0B2240;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 25px 20px;
+  box-shadow: -1px 0px 40px -16px white;
+}
+
+ul.fixed_menus a {
+  width: 60px;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  border-bottom: 1px solid #657C93;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+ul.fixed_menus li:last-child a{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ul.fixed_menus a img {
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+a.whatsapp-contenct {
+  bottom: 4%;
+  display: block;
+  max-width: 60px;
+  left: 2%;
+}
+
+a.highlightedbanner {
+  display: block;
+  max-width: 100px;
+  left: 1%;
+  bottom: 15%;
+}
+.left_button-for-popup {
+  background: #0B2240;
+  color: #E1AB3D;
+  left: -51px;
+  top: 30%;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  padding: 0;
+  padding-left: 30px;
+  transform: translateY(-50%) rotate(90deg);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.left_button-for-popup button {
+  background: #E1AB3D;
+  margin-left: 15px;
+  height: 60px;
+  width: 50px;
+}
+
+.left_button-for-popup button img {
+  transform: rotate(-90deg);
+  max-width: 22px;
+}
+.qtyIncrements {
+  background: #0B2240;
+  top: calc(42%);
+  transform: translateY(-50%);
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+}
+
+.qtyIncrements > span {
+  font-size: 16px;
+  display: block;
+  color: #E1AB3D;
+}
+
+.qtyIncrements div {
+  align-items: center;
+  gap: 5px;
+  display: none;
+}
+
+.qtyIncrements > span b {
+  font-size: 22px;
+  display: inline-block;
+}
+
+.qtyIncrements div button {
+  background: #E1AB3D;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: normal;
+  font-weight: bolder;
+}
+
+.qtyIncrements div span {
+  color: #fff;
+  margin-left: 15px;
+  line-height: 1;
+}
+
+.qtyIncrements:hover div {
+  display: flex;
+}
+
+.qtyIncrements:hover > span {
+  display: none;
+}
 
 
 
 
+/* Popup multistep form */
 
 
+button.btn-close {
+  background: #0B2240;
+  opacity: 1;
+  position: absolute;
+  left: -35px;
+  top: 0;
+  color: #fff;
+  font-weight: 700;
+  font-family: cursive;
+  transition: .2s;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0 !IMPORTANT;
+  border-radius: 10px 0 0 10px;
+}
 
+.modal-header {
+  background: #0B2240;
+  position: relative;
+}
 
+.modal-header h5 {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 32px;
+  line-height: 34px;
+}
 
+button.btn-close:hover {
+  color: #fff;
+}
 
+.theProgressBar {
+  direction: rtl;
+  color: #657C93;
+  font-size: 15px;
+}
 
+.progs-line {
+  display: flex;
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 10px;
+}
 
+.progs-blk {
+  height: 10px;
+  background: #E1AB3D;
+  border-radius: 20px;
+  transition: .2s;
+}
 
+.allstes {
+  direction: rtl;
+}
 
+.step {
+  position: relative;
+  display: none;
+}
 
+.step.active {
+  display: block;
+}
 
+.inp_blk {
+  margin-top: 25px;
+}
+.inp_blk > span {
+  display: flex;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  gap: 8px;
+}
+.inp_blk > span span{
+  direction: ltr;
+}
+.inputItems input {
+  margin: 0;
+}
 
+.inputItems label {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  direction: ltr;
+  justify-content: flex-end;
+  text-align: right;
+}
 
+.inputItems label input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-left: 10px;
+}
+
+.inputItems label div input {
+  padding: 0;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: 0;
+}
+
+.inputItems label div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.form_btns button {
+  font-size: 28px;
+  background: #0B2240;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.step_navs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.step_navs button {
+  width: 60px;
+  height: 55px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E1AB3D;
+}
+
+.step_navs button svg path {
+  fill: #0B2240;
+}
+
+.step_navs button.backward.disabled {
+  pointer-events: none;
+  opacity: .1;
+}
+.two_item {
+  display: flex;
+  gap: 40px;
+}
+.dire_text {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.dire_text h5 {
+  font-size: 25px;
+  color: #E1AB3D;
+} 
+form.multistepform.lastItemShowing button.forward,
+form.multistepform.firstItemShowing button.backward { 
+  opacity: .2;
+  pointer-events: none;
+}
+
+form.multistepform.firstItemShowing .step_navs button,
+form.multistepform.lastItemShowing .step_navs button{
+  background: #0B2240;
+
+}
+form.multistepform.firstItemShowing .step_navs  svg path,
+form.multistepform.lastItemShowing .step_navs  svg path{
+  fill: #E1AB3D;
+
+}
 
 

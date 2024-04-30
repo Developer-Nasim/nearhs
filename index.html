@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -90,12 +90,7 @@
         </div>
     </div>
         <!-- mobile-menu START -->
-        <div class="mobile-menu">
-            <a href="#" class="logo"><img src="assets/img/logo.png" alt=""></a>
-            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
-                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
-            </svg></a> 
+        <div class="mobile-menu"> 
             <nav> 
                 <ul> 
                     <li><a href="#">צור קשר</a></li>
@@ -132,7 +127,145 @@
     <!-- header-area END -->
 
 
+    <!-- Fixed items START -->
+        <div class="left_button-for-popup" data-bs-toggle="modal" data-bs-target="#staticBackdrop">  משוב<button type="button"><img src="assets/img/arrow-left.svg" alt=""></button></div>
+        <div class="qtyIncrements">
+            <span><b>א</b>א</span>
+            <div>
+                <button type="button">+</button>
+                <button type="button">-</button>
+                <span>שנה גודל טקסט</span>
+            </div>
 
+        </div>
+        <a href="//whatsapp.com" class="whatsapp-contenct"><img src="assets/img/wtp.png" alt=""></a>
+        <a href="#" class="highlightedbanner"><img src="assets/img/img7.png" alt=""></a>
+        <ul class="fixed_menus">
+            <li><a href="#"><img src="assets/img/calender.svg" alt="">זמני היום</a></li>
+            <li><a href="#"><img src="assets/img/report.svg" alt="">מבחן שבועי
+            <span></span></a></li>
+            <li><a href="#"><img src="assets/img/book.svg" alt="">  סגולות</a></li>
+        </ul>
+    <!-- Fixed items END --> 
+  
+    <!-- Popup Multi-step form -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">שאלון לגולשי נהר שלום  </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" class="multistepform firstItemShowing">
+                        <div class="theProgressBar">
+                            שלב 2 מתוך 7
+                            <div class="progs-line"><div class="progs-blk" style="width: 20%;"></div></div>
+                        </div>
+           
+                        <!-- form Steps -->
+                        <div class="allstes">
+                            <div class="step active first_item" data-width="25">
+                                <div class="inp_blk">
+                                    <span>קצת עליך <span>.1</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#"><input type="text" placeholder="שם מלא*" id=""> </label>
+                                        <label for="#"><input type="text" placeholder="אימייל" id=""></label>
+                                        <label for="#"><input type="text" placeholder="טלפון או נייד" id=""></label>
+                                    </div> 
+                                </div>
+                                <div class="inp_blk">
+                                    <span>לאיזה צורך אתה נכנס לאתר <span>.2</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#">לקרוא מאמר<input type="radio" name="reason"></label>
+                                        <label for="#">להוריד את העלון השבועי<input type="radio" name="reason"></label>
+                                        <label for="#">להשאיר הודעה ב'צור קשר'<input type="radio" name="reason"></label>
+                                        <label for="#">לצפות בשיעור השבועי (שידור חוזר)<input type="radio" name="reason"></label>
+                                        <label for="#"><div><input type="text" name="" id=""> אחר</div> <input type="radio" name="reason"></label>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                            <div class="step" data-width="50">
+                                <div class="inp_blk">
+                                    <span>איזה תכנים מעניינים אותך באתר?<span>.3</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#"><textarea placeholder="התשובה שלך"></textarea></label>
+                                    </div> 
+                                </div>
+                                <div class="inp_blk">
+                                    <span>האם יש משהו שהיית רוצה שיהיה באתר וכרגע אין אותו? <span>.4</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#"><textarea placeholder="התשובה שלך"></textarea></label>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                            <div class="step" data-width="75">
+                                <div class="inp_blk">
+                                    <span> האם נתקלת בבעיה כלשהי באתר? <span>.5</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#"><textarea placeholder="התשובה שלך"></textarea></label>
+                                    </div> 
+                                </div>
+                                <div class="inp_blk">
+                                    <span>איך החוויה שלך באתר  <span>.6</span> </span>
+                                    <div class="inputItems">
+                                        <div class="two_item">
+                                            <div>
+                                                <label for="#"> <div dir="rtl"> 1 <span>- לא מרוצה בכלל</span></div> <input type="radio" name="order"></label>
+                                                <label for="#">2 <input type="radio" name="order"></label>
+                                                <label for="#">3 <input type="radio" name="order"></label>
+                                                <label for="#">4 <input type="radio" name="order"></label>
+                                                <label for="#">5 <input type="radio" name="order"></label> 
+                                            </div>
+                                            <div>
+                                                <label for="#">6<input type="radio" name="order"></label>
+                                                <label for="#">7 <input type="radio" name="order"></label>
+                                                <label for="#">8 <input type="radio" name="order"></label>
+                                                <label for="#">9 <input type="radio" name="order"></label>
+                                                <label for="#"> <div dir="rtl">10 <span> - הכי מרוצה</span></div> <input type="radio" name="order"></label> 
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                            <div class="step last_item" data-width="100">
+                                <div class="inp_blk">
+                                    <span>יש משהו נוסף שאתה רוצה לשתף אותנו? <span>.7</span> </span>
+                                    <div class="inputItems">
+                                        <label for="#"><textarea placeholder="התשובה שלך"></textarea></label>
+                                    </div> 
+                                </div>
+                                <div class="dire_text">
+                                    <h5>תודה! הגעתם לסוף השאלון!</h5>
+                                    <p> לחצו על כפתור "שלח משוב" לסיום ושליחה</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="form_btns">
+                            <button type="button" data-bs-dismiss="modal">שלח משוב</button>
+                            <div class="step_navs">
+                                <button type="button" class="backward">
+                                    <svg width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.656418 15.3435C-0.0855827 14.6015 -0.0855828 13.3985 0.656418 12.6565L12.748 0.564942C13.49 -0.177055 14.693 -0.177055 15.435 0.564942C16.177 1.30694 16.177 2.50996 15.435 3.25195L4.68694 14L15.435 24.748C16.177 25.49 16.177 26.6931 15.435 27.4351C14.693 28.1771 13.49 28.1771 12.748 27.4351L0.656418 15.3435ZM35.25 15.9L1.99992 15.9L1.99992 12.1L35.25 12.1L35.25 15.9Z" fill="#0B2240"/>
+                                    </svg>
+                                </button>
+                                <button type="button" class="forward">
+                                    <svg width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M34.5936 12.6565C35.3356 13.3985 35.3356 14.6015 34.5936 15.3435L22.502 27.4351C21.76 28.1771 20.557 28.1771 19.815 27.4351C19.073 26.6931 19.073 25.49 19.815 24.748L30.5631 14L19.815 3.25195C19.073 2.50995 19.073 1.30694 19.815 0.56494C20.557 -0.177057 21.76 -0.177057 22.502 0.56494L34.5936 12.6565ZM0 12.1L33.2501 12.1V15.9L0 15.9L0 12.1Z" fill="#0B2240"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div> 
+            </div>
+        </div>
+    </div>
 
 
     <!-- Main START -->
@@ -163,7 +296,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title">
-                            <h3>מה חדש</h3>
+                            <h3 class="with_arrow_btn"><button type="button"><img src="assets/img/arrow-left.svg" alt=""></button> מה חדש</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -1188,6 +1321,8 @@
         <script src="assets/js/jquery-3.7.1.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>  
-        <script src="assets/js/main.js"></script> 
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/multistep.js"></script>   
+        <script src="assets/js/main.js"></script>    
     </body>
 </html>
