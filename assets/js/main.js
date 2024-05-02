@@ -2,13 +2,17 @@
   "use strict";
   
  // menu 
-  $('.siteBar-btn').click( function (){ 
+  $('.siteBar-btn').click( function (e){ 
+    e.preventDefault()
     $('.mobile-menu').toggleClass('siteBar');
     $('body').toggleClass('siteBar_showing');
     $('.menuShadow').toggleClass('show');
     $('.siteBar-btn').toggleClass('showing');
   }); 
 
+  $('.searchbox img').click(()=>{
+    $('.searchbox').toggleClass('showsearch');
+  })
     
   // All Speaches
   $(".allspeaches").owlCarousel({
